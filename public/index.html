@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+			<section>
+				<section>
+					<h3>
+						Utilitaires Siera
+					</h3>
+				</section>
+			</section>
+			<section>
+				<section>Contexte</section>
+				<section>
+				<p> Chaine PIRENES</p>
+				<img src="http://www.plantuml.com/plantuml/png/RP11Ygmm48RtEKNHgsxmNU3DfaK3us94EbuW9DLsGKoaBETEdiEBJPnPZC9iGa6-xy-VkizYMPOnA2492DNBKaImqnJ8MQ5FXAvvw5ORzRzyL6yg9a5W6bwYh7CBKW2F42pKfbKOFUp0plRwep4dll4OXPxVkId2TIP6AI0ItnGAkEGFbvER0GM6RKstGsxTbAq-fLOsk2N0kAr2oE1nXcbRcLAUJeMgVrLlpcgA3gFmpvExEQU5NVQkfYbDLq2dY_rZ-IXhS-pHlskZ_opY5xWCR3FvJ3nQkVnQzppbLNy1" 
+				alt="schema chaine pirenes" ></img>
+				</section>
+				<section>
+				    <p class="" > DADS -> DSN</p>
+					<p class="fragment" > Un besoin d'exploration des données</p>
+					<p class="fragment" > Retour aux fichiers sources</p>
+					<p class="fragment" > Exploitation des nouvelles variables</p>	
+				</section>
+			</section>
+			<section>
+				<section>Boîte à outils</section>
+				<section>
+					<p>Cherche Fichier</p>
+					<p>Objectif: retrouver des fichiers dans un ensemble d'archives</p>
+					<img data-src="images/ChercheFichier.JPG">
+				</section>
+				<section>
+					<p>Extracteur de Rubrique</p>
+					<p>Objectif: extraire des rubriques de fichiers xml</p>
+					<img data-src="images/ExtracteurRubrique.JPG">
+				</section>
+				<section>
+					<p>Renomme Fichier</p>
+					<p>Objectif: renommer un ensemble de fichiers</p>
+					<img data-src="images/RenommeFichier.JPG">
+				</section>
+			</section>
+			<section>
+				<section>Démonstration</section>
+				<section>
+					<p>schéma de données</p>
+					<img data-src="images/demonstration.jpg">
+				</section>
+				<section>
+					<p>Contenu des fichiers</p>
+					<img data-src="images/schema.JPG">
+				</section>
+				<section>
+					<p>En piste!</p>
+				</section>
+			</section>
+			<section>
+				<section>Conclusion</section>
+				<section>
+					<p class="" > Une série d'outils</p>
+					<p class="fragment" > qui rendent des services simples </p>
+					<p class="fragment" > mais très utiles</p>
+					<p class="fragment" > qui sont simples à utiliser</p>
+					<p class="fragment" > et permettent l'autonomie des utilisateurs métiers</p>
+				</section>
+				<section>
+					<p>Merci de votre attention</p>
+					<p>Des questions?</p>
+				</section>
+			</section>			
+			</div>
+		</div>
+
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>
